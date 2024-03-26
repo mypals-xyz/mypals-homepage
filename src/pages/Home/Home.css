@@ -1,0 +1,22 @@
+.walk-pal {
+  animation: move 15s infinite;
+}
+
+@keyframes move {
+  0%,
+  100% {
+    left: 20%;
+    transform: scaleX(1);
+  }
+  99% {
+    left: 20%;
+    transform: scaleX(-1);
+  }
+  50% {
+    left: 33%;
+    transform: scaleX(1);
+  }
+  51% {
+    transform: scaleX(-1);
+  }
+}
