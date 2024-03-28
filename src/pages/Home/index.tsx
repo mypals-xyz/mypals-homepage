@@ -1,7 +1,6 @@
 import BitButton from "@/components/BitButton";
 import Nav from "@/components/Nav";
 import Island from "@assets/gif/island.gif";
-import Pal from "@assets/gif/pal.gif";
 import DiscordIcon from "@assets/svg/discord.svg";
 import MIcon from "@assets/svg/M.svg";
 import RocketIcon from "@assets/svg/Rocket.svg";
@@ -9,8 +8,6 @@ import Sunline from "@assets/svg/sunline.svg";
 import XIcon from "@assets/svg/x.svg";
 import cz from "classnames";
 import { useTranslation } from "react-i18next";
-
-import "./Home.css";
 
 export default function Home(): JSX.Element {
   const { t } = useTranslation();
@@ -42,10 +39,6 @@ export default function Home(): JSX.Element {
 
           <div className="relative mt-2 md:mt-0 md:!absolute md:-top-2 md:right-3 md:-z-10">
             <img src={Island} className="md:w-[896px] md:h-[896px]" />
-            <img
-              src={Pal}
-              className="walk-pal absolute w-12 h-12 top-[120px] md:w-[128px] md:h-[128px] md:top-[300px]"
-            />
             <div
               className={cz(
                 "absolute -z-20 w-full bg-[#AA1FFF] bg-opacity-15 blur-[140px]",
