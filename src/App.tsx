@@ -8,7 +8,6 @@ export default function App(): JSX.Element {
     <Routes>
       <Route index element={<Home />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/login/complete" />
     </Routes>
   );
 }

@@ -1,6 +1,6 @@
 import BitButton from "@/components/BitButton";
 import Nav from "@/components/Nav";
-import Island from "@assets/gif/island.gif";
+import Island from "@assets/gif/island.webp";
 import DiscordIcon from "@assets/svg/discord.svg";
 import MIcon from "@assets/svg/M.svg";
 import RocketIcon from "@assets/svg/Rocket.svg";
